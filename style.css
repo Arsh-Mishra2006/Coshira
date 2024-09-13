@@ -130,9 +130,10 @@ nav{
 } */
 
 /* Main */
-/* main{
+main{
     display: flex; 
-} */
+    
+}
 .profile_box{
     display: flex;
     justify-content: center;
@@ -140,9 +141,9 @@ nav{
     flex-wrap:wrap;
     width: 100vw;
     height: 100vh;
-    padding:80px 0px 0px 70px;
+    padding:80px 0px 0px 50px;
     column-gap:90px;
-    row-gap: 20px;
+    row-gap: 35px;
 }
 .profile_box div{
     height:300px;
