@@ -110,26 +110,16 @@ nav{
     border-radius:25px;
 }
 @keyframes width{
-    to{width:20rem;}
+    to{width:10rem;}
 }
-/* .side_bar div span{
-    opacity: 0;
-    color: black;
-    margin-left: 10px;
-    transition:opacity 0.3 linear 0s;
+.circle:nth-child(6):hover i {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
 }
-.side_bar div:hover span{
-    opacity: 1;
-}
-.circle span{
-    position: absolute;
-    left: 50px; 
-}
-.circle:hover span{
-    animation: left;
-} */
+
 
 /* Main */
+
 main{
     display: flex; 
     
