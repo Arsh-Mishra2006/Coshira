@@ -2,6 +2,9 @@
     margin:0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #ccc5b9;
+}
 a{
     text-decoration: none;
     color:white;
@@ -82,9 +85,11 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 5px;
+    padding: 20px 5px;
     row-gap: 30px;
     box-shadow: 0px 0px 10px;
+    position: fixed;
+    margin:50px 0px;
 }
 .side_bar div{
     height:50px;
@@ -100,14 +105,12 @@ nav{
     color: black;
 }
 .side_bar div:hover{
+    animation:slide 0.1s forwards 1 0s;
     border-radius:25px;
-    width:20rem;
-    display:block;
+}
+@keyframes slide{
+    to{width:20rem;}
 }
 
 /* Main */
 
-main{
-    background-color: #ccc5b9;
-    height: 100vh;
-}
