@@ -46,7 +46,7 @@ nav{
 .search{
     height:30px;
     width:90%;
-    background-color: #fffcf2;
+    background-color: white;
     border-top-left-radius:15px;
     border-bottom-left-radius:15px;
     border:0px;
@@ -97,62 +97,74 @@ nav{
 .side_bar div{
     height:50px;
     width: 50px;
-    background-color: #fffcf2;
+    background-color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
+
 }
+
+
 .side_bar div:hover{
-    animation:width 0.3s forwards 1 0s;
     border-radius:25px;
+    animation: slide 0.3s forwards 1 0s;
 }
-@keyframes width{
-    to{width:10rem;}
+@keyframes slide {
+    to{width:10rem}
 }
 .circle:nth-child(6):hover i {
     transform: rotate(180deg);
     transition: transform 0.5s ease;
 }
-
-/* Messages */
-
-.main_chat_box{
-    padding: 80px 0px 0px 135px;
-}
-.chat_box{
-    position:relative;
-    height:85vh;
-    width:85vw;
-    background-color:#fffcf2 ;
-    box-shadow: 0 0 10rem black;
-    border-radius: 30px;
-    display: flex;
-}
-.chat_box .foot{
-    height:60px;
-    width: 70%;
-    border-radius: 100px;
+.profile-box{
     
-    box-shadow: 0px 0px 1rem;
-    position: absolute;
-    bottom: 20px;
-    left:10rem;
-} 
-.chat_box .foot input{
-    height:100%;
-    width: 100%;
-    border-radius: 100px;
-    border: 0px;
-    padding-left: 30px;
-    border: 3px solid #eb5e28;
-} 
-.mid{
+    padding:80px 0px 0px 135px;
+   
+}
+.contact{
+    height: 85vh;
+    width: 85vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    background-color: rgb(202, 191, 181);
+    box-shadow : 0 0 10rem black;
+    
+
+}
+input{
+    width: 60vw;
+    height: 10vh;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    border: 3px solid black;
+
+}
+textarea{
+   
+    width: 60vw;
+    height: 40vh;
+    /* text-align: center; */
+    font-weight: bolder;
     font-size: larger;
-    position: absolute;
-    bottom:50%;
-    left:20rem;
-    color:gray
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    color: grey;
+    
+}
+#number{
+    color: blue;
+}
+#number:hover{
+    text-decoration: underline;
 }

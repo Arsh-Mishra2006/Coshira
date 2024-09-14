@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left{
+    height: 100%;
+    width: 68%;
+    border: 1px solid black;
+    /* background-image: url(https://img.freepik.com/premium-photo/black-background-with-orange-blue-lines-orange-blue-stripes_994023-204360.jpg); */
+   
+    background-color: rgb(4, 14, 58);
+    background-size: cover;
+   
+}
+.left h2{
+    margin: 40px;
+    font-size: 60px;
+    color: white;
+}
+.left p{
+    font-size: large;
+     margin: 4px;
+     color:beige
+}
+
+.left input{
+    background-color: rgb(211, 211, 221);
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    height: 10vh;
+    width: 25vw;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.left select{
+    height: 10vh;
+    width: 25vw;
+    margin: 20px;
+    font-size: large;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(211, 211, 221);
+    color: black;
+    font-weight: bolder;
+}
+.left button{
+    height: 10vh;
+    width: 25vw;
+    background-color: color;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+
+}
+.left button:hover{
+    font-weight: bolder;
+    border: 4px solid black;
+    cursor: pointer;
+}
+.right{
+    border: 1px solid black;
+    height: 100%;
+    width: 32%;
+    background-image: url(https://cdn.leonardo.ai/users/62c7243a-1510-4182-81df-550fb6afd599/generations/3800ea9a-e634-4ca7-aaa0-54013243ad16/Leonardo_Phoenix_A_vibrant_and_dynamic_image_for_Coshira_a_soc_0.jpg);
+    background-size: cover;
+}

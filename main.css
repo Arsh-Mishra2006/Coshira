@@ -26,6 +26,7 @@ nav{
 .logo{
     color: white;
     font-size: large;
+    
 }
 .nav_content ul{
     color:white;
@@ -78,6 +79,7 @@ nav{
     cursor: pointer;
 }
 
+
 /* Side_Bar */
 
 .side_bar{
@@ -116,7 +118,9 @@ nav{
     transform: rotate(180deg);
     transition: transform 0.5s ease;
 }
-
+.circle img{
+    z-index: 9;
+}
 
 /* Main */
 
@@ -170,4 +174,8 @@ main{
 .box{
     background-image: url(https://cdn.vectorstock.com/i/1000v/53/42/user-member-avatar-face-profile-icon-vector-22965342.avif);
     background-size: cover;
+}
+#profile{
+    text-decoration: none;
+    color:inherit;
 }
