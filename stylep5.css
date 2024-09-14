@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 200, 165);
+    background-image: url(https://cdn.leonardo.ai/users/62c7243a-1510-4182-81df-550fb6afd599/generations/3800ea9a-e634-4ca7-aaa0-54013243ad16/Leonardo_Phoenix_A_vibrant_and_dynamic_image_for_Coshira_a_soc_0.jpg);
+    /* background-image: url(https://t3.ftcdn.net/jpg/01/27/47/12/360_F_127471210_VkRs7xWsmyWFOvGnni70WVHOVTmxhPh2.jpg); */
+    /* background-image: url(https://img.freepik.com/premium-photo/black-background-with-orange-blue-lines-orange-blue-stripes_994023-204360.jpg); */
+    /* filter: blur(10px); */
+    background-size: cover;
+
+    
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 900px;
+    
+}
+.left{
+    width: 450px;
+    height: 100%;
+    background-image: url(https://cdn.leonardo.ai/users/62c7243a-1510-4182-81df-550fb6afd599/generations/3800ea9a-e634-4ca7-aaa0-54013243ad16/Leonardo_Phoenix_A_vibrant_and_dynamic_image_for_Coshira_a_soc_0.jpg);
+    background-size: cover;
+    background-color: #024950;
+    border: 0px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.right{
+    width: 450px;
+    height: 100%;
+    border: 1px solid white;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    background-color: rgb(4, 14, 58);
+}
+.right h3{
+    
+    margin: 50px;
+    font-size: 45px;
+    color: white;
+}
+
+.right input{
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: large;
+}
+.right button{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.right button:hover{
+    background-color: blue;
+    border: 3px solid rgb(130, 130, 207);
+    cursor: pointer;
+}
+p{
+    color: white;
+  font-weight: bolder;  
+}
+a{
+    margin: 0;
+    color: white;
+}
+a:hover{
+    color: blue;
+}

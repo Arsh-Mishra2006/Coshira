@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coshira</title>
+    <title>Messages</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="msg.css">
 </head>
 <body>
    <header>
+
+    <!-- Navbar -->
+
     <nav>
         <div class="navbar">
             <div class="logo">
@@ -33,16 +36,45 @@
     </nav>
    </header>
 <main>
+
+    <!-- Side Bar -->
+
     <div class="side_bar">
-        <div class="circle1"><i class="fa-solid fa-user fa-xl"></i><p id="circle1">Profile</p></div>
-        <div class="circle2"><i class="fa-solid fa-house fa-xl"></i></div>
-        <div class="circle3"><i class="fa-solid fa-message fa-xl"></i></div>
-        <div class="circle4"><i class="fa-solid fa-robot fa-xl"></i></div>
-        <div class="circle5"><i class="fa-solid fa-clock-rotate-left fa-xl"></i></div>
-        <div class="circle6"><i class="fa-solid fa-gear fa-xl"></i></div>
-        <div class="circle7"><i class="fa-solid fa-info fa-xl"></i></div>
+        <div class="circle">
+            <i class="fa-solid fa-user fa-xl"></i>
+        </div>
+        <a href="index.htm"><div class="circle">
+            <img src="house-solid.svg" alt="" height="25px" width 25px>
+        </div></a>
+        <div class="circle">
+            <i class="fa-solid fa-message fa-xl"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-robot fa-xl"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-clock-rotate-left fa-xl"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-gear fa-xl"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-info fa-xl"></i>
+        </div>
     </div>
-</main>
+
+    <!-- Messages -->
+     <div class="main_chat_box">
+        <div class="chat_box">
+            <div class="mid"><h1>Chat For Any Assistance...</h1></div>
+            <div class="foot">
+                <input type="text" placeholder="Message">
+                <div class="botton">
+                
+                </div>
+            </div>
+            
+        </div>
+     </div>
     
-</body>
-</html>
+</main>
